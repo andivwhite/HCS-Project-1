@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hell World</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/15181efa86.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/hello-parallax.css" />
+  </head>
+
+  <body>
+    <section id="parallax-3" class="hero is-small">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-6 is-offset-9">
+              <h1 class="title is-1">It burns</h1>
+              <hr class="content-divider" />
+              <a href="index.html" class="button is-white is-inverted"
+                ><i class="fad fa-chevron-left"></i>&ensp;Back</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="parallax-3" class="hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-multiline" id="cardContainer">
+            <div class="column is-half">
+              <div class="field">
+                <label class="label">FFS what now?</label>
+              </div>
+
+              <form class="card-content">
+                <div class="content">
+                  <input
+                    id="titlePost"
+                    class="input"
+                    type="text"
+                    placeholder="Title"
+                  />
+                  <input
+                    id="cityPost"
+                    class="input"
+                    type="text"
+                    placeholder="City"
+                  />
+                  <input
+                    id="countryPost"
+                    class="input"
+                    type="text"
+                    placeholder="Country"
+                  />
+                  <input
+                    id="datePost"
+                    class="input"
+                    type="date"
+                    placeholder="Date"
+                  />
+                </div>
+              </form>
+
+              <div class="field">
+                <label class="label">Use your words....</label>
+                <br />
+                <div class="control">
+                  <textarea
+                    id="descriptionNewPost"
+                    class="textarea"
+                    placeholder="Text"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="field is-grouped">
+                <div class="control">
+                  <button id="submitPost" class="button is-white is-inverted">
+                    Submit
+                  </button>
+                </div>
+                <div class="control">
+                  <button id="cancelPost" class="button is-white is-inverted">
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="field">
+                <label class="label">Where there's smoke...</label>
+              </div>
+              <br />
+              <div class="box">
+                <ul id="newEntriesList"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="post.js"></script>
+  </body>
+</html>

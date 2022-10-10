@@ -1,0 +1,32 @@
+[
+  {
+    "city": "Paris",
+    "country": "France",
+    "htmlContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iste distinctio, dignissimos amet, quos praesentium repudiandae dolores voluptates possimus dicta doloribus nostrum expedita facere quae, perferendis nulla repellat nesciunt tempora.",
+    "tags": "#oohlala #jesuisunebagette",
+    "thumbnail": "https://bulma.io/images/placeholders/48x48.png",
+    "imageAltText": "Placeholder image",
+    "date": "1 Jan 2022",
+    "weatherField": "Loading"
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "htmlContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iste distinctio, dignissimos amet, quos praesentium repudiandae dolores voluptates possimus dicta doloribus nostrum expedita facere quae, perferendis nulla repellat nesciunt tempora.",
+    "tags": "#basta #seiunapizza",
+    "thumbnail": "https://bulma.io/images/placeholders/48x48.png",
+    "imageAltText": "Placeholder image",
+    "date": "1 Feb 2022",
+    "weatherField": "Loading"
+  },
+  {
+    "city": "London",
+    "country": "UK",
+    "htmlContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iste distinctio, dignissimos amet, quos praesentium repudiandae dolores voluptates possimus dicta doloribus nostrum expedita facere quae, perferendis nulla repellat nesciunt tempora.",
+    "tags": "#blimey #notanotherpint",
+    "thumbnail": "https://bulma.io/images/placeholders/48x48.png",
+    "imageAltText": "Placeholder image",
+    "date": "1 March 2022",
+    "weatherField": "Loading"
+  }
+]
